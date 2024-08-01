@@ -20,7 +20,12 @@ public class AddEmployee extends JFrame implements ActionListener{
     JButton add,back;
     AddEmployee(){
 
-        getContentPane().setBackground(new Color(163,255,183));
+        setLayout(null);
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/white.jpg"));
+        Image i2 = i1.getImage().getScaledInstance(700,630,Image.SCALE_DEFAULT);
+        ImageIcon i3 = new ImageIcon(i2);
+        JLabel image = new JLabel(i3);add(image);
+        getContentPane().setBackground(new Color(255,255,255));
         JLabel heading = new JLabel("Add Employee Detail");
         heading.setBounds(320,30,500,50);
         heading.setFont(new Font("serif",Font.BOLD,25));

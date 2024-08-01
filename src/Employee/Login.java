@@ -41,11 +41,11 @@ public class Login extends JFrame implements ActionListener{
         back.addActionListener(this);
         add(back);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/second.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/3RgbQA.jpg"));
         Image i2 = i1.getImage().getScaledInstance(600,400,Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel img = new JLabel(i3);
-        img.setBounds(350,10,600,400);
+        img.setBounds(0,0,600,400);
         add(img);
 
         ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/LoginB.jpg"));

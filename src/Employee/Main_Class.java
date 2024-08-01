@@ -8,7 +8,7 @@ public class Main_Class extends JFrame{
 
     Main_Class(){
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/home.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/empsystem.jpg"));
         Image i2 = i1.getImage().getScaledInstance(1120,650,Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel img = new JLabel(i3);
